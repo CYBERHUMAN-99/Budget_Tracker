@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14)),
+    url(images/pexels-rickyrecap-1964471.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+    display: block;
+    place-content: center;
+  /* place-content: center; */
+}
+h1{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+form{
+    width: 50%;
+   margin: auto;
+   padding: 30px;
+    background-color: rgba(28, 26, 26, 0.829);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.log-reg{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.555);
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.log{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+#log{
+    background-color: rgba(128, 128, 128, 0.555) ;
+    color: white;
+    transition: 1
+    s;
+}
+#log:hover{
+  background-color: white;
+  color: black;
+}
+.reg{
+    width: 100%;
+    border-radius: 20px;
+
+}
+button{
+    cursor: pointer;
+}
+.button{
+width:100%;
+/* display: block;1 */
+border: none;
+padding: 5px;
+cursor: pointer;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-block: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.555) ;
+}
+input:focus{
+    outline: 0;
+}
+labeL{
+    font-size: 1.3rem;
+    color: white;
+}
+/* button */
+button{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 1.2rem;
+    
+}
