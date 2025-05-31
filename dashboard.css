@@ -298,3 +298,10 @@ footer{
         width: 100%;
     }
 }
+@media (max-width: 525px) {
+   .form-container{
+   padding: 20px;
+
+}
+    
+}
