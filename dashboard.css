@@ -277,7 +277,7 @@ footer{
 /* media query */
 @media (max-width :620px ){
 #dashboard{
-    /* width: 100%; */
+    width: 100%;
     display: grid;
     grid-template-rows: 1fr;
 }
@@ -291,4 +291,10 @@ footer{
 /* .fa-bars{
     display: block;
 } */
+
+}
+@media (max-width : 380px) {
+    #dashboard{
+        width: 100%;
+    }
 }

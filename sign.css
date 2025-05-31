@@ -97,3 +97,22 @@ button{
     font-size: 1.2rem;
     
 }
+.note{
+    margin-top: 5px;
+    font-size: 1.1rem;
+    color: white;
+}
+/* media query */
+@media (max-width: 768px){
+    form{
+        width: 100%;
+    }
+    /* .log-reg{
+        flex-direction: column;
+        gap: 0;
+    } */
+    .log-reg button{
+        width: 100%;
+    }
+    
+}

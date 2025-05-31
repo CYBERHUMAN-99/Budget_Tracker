@@ -29,8 +29,8 @@ function user(e) {
   if (!usernameValue || !emailValue || !passwordValue) {
     alert("All fields are required");
     return;
-
-
+  }else{
+    window.location.href = "login.html"
   }
 
   // console.log("User inputs:", {
